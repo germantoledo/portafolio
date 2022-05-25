@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+* {
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    background-color: #292c30;
+    background-image: url("../assets/img/yo.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-blend-mode: exclusion;
+    object-fit: contain;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #585D65 !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.nav-item a {
+    font-size: 0.85rem;
+}
+
+.block {
+    border: 1px solid red;
+}
+
+#AcercaDeMi {
+    margin-top: 7rem;
+}
+
+#AcercaDeMi h4 {
+    text-align: center;
+}
+
+.colorSecundario {
+    color: rgba(87, 216, 87, 0.623);
+}
+
+#AcercaDeMi p {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#AcercaDeMi h6 {
+    text-align: start;
+    line-height: 2rem;
+}
+
+
+/* circulo de porcentaje */
+
+#graph {
+    position: relative;
+    margin: 80px;
+    width: 220px;
+    height: 220px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+span {
+    color: #fff;
+    opacity: 0.6;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-left: -0.5rem;
+}
