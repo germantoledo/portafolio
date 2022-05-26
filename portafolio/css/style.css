@@ -156,13 +156,13 @@ body {
 
 .redSocial:nth-child(1) {
     position: fixed;
-    bottom: 1rem;
+    bottom: 0rem;
     left: 0;
 }
 
 .redSocial:nth-child(2) {
     position: fixed;
-    bottom: 7rem;
+    bottom: 6rem;
     left: 0;
 }
 
