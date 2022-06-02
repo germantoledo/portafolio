@@ -99,16 +99,6 @@ body {
     line-height: 2rem;
 }
 
-#portfolio .imagenPortfolio {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
-    transition: all .6s ease;
-    cursor: pointer;
-}
-
 #portfolio a {
     text-decoration: none;
     color: rgba(87, 216, 87, 0.623);
@@ -119,10 +109,38 @@ body {
     font-size: 1.2rem;
 }
 
-/* #portfolio .imagenPortfolio:hover {
-    -webkit-transform:scale(1.05);
+.contenedorImagen{
+    background-color: transparent;
+}
+
+#portfolio .imagen{
+    background-image: url('../assets/img/PageTrabajosBO.PNG');
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
+    transition: all .6s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+ #portfolio .imagen:hover {
     transform:scale(1.05);
-} */
+    background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/PageTrabajosBO.PNG');
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+#portfolio .sobreImagen{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 45%;
+    top: 50%;
+    visibility: hidden;
+}
 
 
 

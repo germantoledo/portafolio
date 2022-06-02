@@ -13,3 +13,12 @@ $('#whatsapp').on('click', function () {
 $('#trabajosBO').on('click', function () {
     window.open('https://trabajosbo.netlify.app', '_blank');
 });
+
+
+$('.imagen').mouseover(function() {
+    $('.sobreImagen').css('visibility','visible');
+});
+
+$('.imagen').mouseout(function() {
+    $('.sobreImagen').css('visibility','hidden');
+}); 
