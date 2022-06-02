@@ -125,9 +125,68 @@ body {
     position: relative;
 }
 
+#portfolio .imagen2{
+    background-image: url('../assets/img/RecetasAPP.PNG');
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
+    transition: all .6s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+
+#portfolio .imagen3{
+    background-image: url('../assets/img/zlatanpage.PNG');
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
+    transition: all .6s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+#portfolio .imagen4{
+    background-image: url('../assets/img/appclinica.jpeg');
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
+    transition: all .6s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+
  #portfolio .imagen:hover {
     transform:scale(1.05);
     background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/PageTrabajosBO.PNG');
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+#portfolio .imagen2:hover {
+    transform:scale(1.05);
+    background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/RecetasAPP.PNG');
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+#portfolio .imagen3:hover {
+    transform:scale(1.05);
+    background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/zlatanpage.PNG');
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+#portfolio .imagen4:hover {
+    transform:scale(1.05);
+    background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/appclinica.jpeg');
     background-size:cover;
     background-blend-mode: multiply;
 }
@@ -141,6 +200,7 @@ body {
     top: 50%;
     visibility: hidden;
 }
+
 
 
 
@@ -245,3 +305,4 @@ body {
 .redSocial:hover {
     box-shadow: 0 0 7px rgba(212, 211, 211, 0.918);
 }
+
