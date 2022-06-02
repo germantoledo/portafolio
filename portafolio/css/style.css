@@ -5,15 +5,19 @@
     font-family: 'Jost', sans-serif;
 }
 
-body {
+body{
     background-color: #292c30;
-    background-image: url("../assets/img/yo.jpg");
+}
+
+.cuerpo{
+    background:linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87,0.1)), url('../assets/img/yo.jpg');
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 45%;
-    background-blend-mode: exclusion;
     object-fit: contain;
     background-attachment: fixed;
 }
+
 
 .logo {
     width: 10%;
