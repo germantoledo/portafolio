@@ -98,4 +98,27 @@
     #portfolio .descripcion4 {
         order: 2;
     }
+    .redSocial {
+        width: 60px;
+        height: 60px;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+    .redSocial:nth-child(1) {
+        position: fixed;
+        bottom: 1rem;
+        left: 22%;
+    }
+    .redSocial:nth-child(2) {
+        position: fixed;
+        bottom: 1rem;
+        left: 42%;
+    }
+    .redSocial:nth-child(3) {
+        position: fixed;
+        bottom: 1rem;
+        left: 62%;
+    }
 }
