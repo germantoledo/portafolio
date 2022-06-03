@@ -11,6 +11,15 @@
     box-shadow: none !important;
 }
 
+
+@media only screen and (max-width: 541px){
+
+    .encapsulador {
+        margin-top: 20rem !important;
+    }
+
+}
+
 @media only screen and (max-width: 991px) {
     .cuerpo {
         background: linear-gradient(0deg, rgba(46, 114, 46, 1), rgba(87, 216, 87, 0.1)), url('../assets/img/yo.jpg');
